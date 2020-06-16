@@ -1,0 +1,20 @@
+
+# Binários para programas e plugins
+* .exe
+* .exe ~
+* .dll
+* .so
+* .dylib
+
+# Teste binário, construído com `go test -c`
+* .test
+
+# Saída da ferramenta de cobertura go, especificamente quando usada com o LiteIDE
+* .out
+
+# Diretórios de dependência (remova o comentário abaixo para incluí-lo)
+# vendor /
+
+# ignorando todos os arquivos dentro da pasta e a pasta 
+NLW/node_modules/*
+NLW/node_modules/
